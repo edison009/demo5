@@ -11,7 +11,7 @@ public class HomeController {
 	@RequestMapping("/demo/welcome")
 	public String hello()
 	{
-		System.out.println("COmes Here");
+		System.out.println("COmes Here from Git");
 		return "hello";
 	}
 
